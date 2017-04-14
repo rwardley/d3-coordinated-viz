@@ -1,0 +1,100 @@
+/* Stylesheet by Rosemary P. Wardley, 2017 */
+
+html * {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+body {
+    background-color: whitesmoke;
+    /*background-color: LightGray ;*/
+}
+
+.map {
+    border: medium solid #999;
+    margin: 10px 0 0 20px;
+}
+.world {
+    fill: #FFF;
+    stroke: #CCC;
+    stroke-width: 1px;
+    stroke-linecap: round;
+}
+
+.gratLines {
+    fill: none;
+    stroke: #999;
+    stroke-width: 0.5px;
+}
+.gratBackground {
+    fill: #f0fdfe;
+}
+.chart {
+    /*background-color: rgba(128,128,128,.2);
+    border: medium solid #999;*/
+    float: right;
+    margin: 10px 20px 0 0;
+}
+/*.numbers {
+    fill: white;
+    font-family: sans-serif;
+}*/
+.chartTitle {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.35em;
+    font-weight: bold;
+}
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+}
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
+}
+
+.dropdown {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    z-index: 10;
+    font-family: AppleGothic, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #999;
+    border: solid thin #fff;
+    padding: 5px 10px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+#ESP_country

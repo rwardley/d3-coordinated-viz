@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>d3-coordinated-viz</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+         <div id="myheader row">
+            <div class="col-sm-9">
+                <h1><center><b>Geographic Trends in Wine Production</b> - <i>2010 to 2014</i></center></h1>
+                <div>The global wine market has long been dominated by the traditional wine-making countries of Europe: France, Italy, and Spain. And while those countries continue to trade spots atop the podium for greatest volume of wine produced annualy, some surprising nations are getting in the grape-growing game! Explore the data gathered by the <span><a href="http://www.oiv.int/public/medias/2256/en-communique-de-presse-octobre-2015.pdf" target = "_blank">International Organization of Wine and Vine</a></span> and see if you can guess where the next vinticulture craze will turn up!
+                </div> 
+            </div>
+        </div><br><p></p>
+
+        <div class="row">
+            <div class="col-sm-6" id="mydiv"></div>
+        </div>
+	   
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+
+		<!--put your external script links here-->
+		<script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="lib/d3-queue.js"></script>
+        <script type="text/javascript" src="lib/topojson.js"></script>
+        <!--not sure if this script is needed. ask-->
+        <script type="text/javascript" src="lib/d3-geo-projection.js"></script>
+        <script type="text/javascript" src="lib/simple-statistics.js"></script>
+        <script type="text/javascript" src="lib/d3.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
